@@ -1,0 +1,5 @@
+<mapper namespace="ums.dao.UserDao">
+    <insert id="insert" parameterType="User">
+        insert into user (name,pass) values (#{name},#{pass})
+    </insert>
+</mapper>
